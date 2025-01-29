@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('шрифт/PlayfulTime-BLBB8.ttf') format('truetype');
+}
+
+body {
+    font-family: Arial;
+    background-color: #c1eaf9; /* Цвет фона */
+    color: #333;
+    padding: 20px;
+    margin: 0;
+}
+
+.container {
+    max-width: 1440px; 
+    margin: 0 auto; 
+}
+
+p {
+    font-family: 'MyCustomFont';
+    font-size: 24px;
+    font-weight: 400;
+    text-align: justify;
+    hyphens: auto;
+}
+
+a {
+    color: #000; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: #000;
+}
+
+a:active {
+    color: #ea2222;
+}
+
+h1, h2, h3 {
+    color: #2c3e50;
+}
+
+img {
+    border: 2px solid #eaeaea;
+    width: 100%; 
+    max-width: 350px;
+    max-height: 400px; 
+    height: auto; 
+    border-radius: 15px; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 2px solid #ffffff;
+    padding: 10px;
+    text-align: center;
+    background-color: #eaeaea;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0; 
+}
+
+#film1 p {
+    text-align: center; 
+}
+
+#film2 p {
+    text-align: justify; 
+}
+
+#film3 p {
+    text-align: right; 
+}
+
+.bold {
+    font-weight: bold;
+}

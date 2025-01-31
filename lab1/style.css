@@ -1,8 +1,17 @@
 @font-face {
     font-family: 'MyCustomFont';
     src: url('шрифт/PlayfulTime-BLBB8.ttf') format('truetype');
+   
+}
+
+@font-face{
     font-family: 'MyCustomFont111';
-    src: url('шрифт/PlayfulTime-BLBB8.ttf') format('truetype');
+    src: url('шрифт/teddy-bear.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'MyCustomFont666';
+    src: url('шрифт/3b6ce-protosans563.ttf') format('truetype');
 }
 
 body {
@@ -72,5 +81,13 @@ ul {
     font-size: large;
     font-family: 'MyCustomFont111';
 }
+
+#film3 {
+    text-align: center; 
+    font-size: large;
+    font-family: 'MyCustomFont666';
+}
+
+
 
 

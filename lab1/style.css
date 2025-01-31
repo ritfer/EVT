@@ -1,6 +1,8 @@
 @font-face {
     font-family: 'MyCustomFont';
     src: url('шрифт/PlayfulTime-BLBB8.ttf') format('truetype');
+    font-family: 'MyCustomFont111';
+    src: url('шрифт/PlayfulTime-BLBB8.ttf') format('truetype');
 }
 
 body {
@@ -61,6 +63,12 @@ ul {
 
 #film1 {
     text-align: right; 
+    font-size: large;
+    font-family: 'MyCustomFont';
+}
+
+#film2 {
+    text-align: justify; 
     font-size: large;
     font-family: 'MyCustomFont';
 }

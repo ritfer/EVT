@@ -71,7 +71,7 @@ article {
   .adaptive {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: 500px 300px auto 1fr; 
+      grid-template-rows: 500px 300px auto; 
       gap: 5px;
   }
 
